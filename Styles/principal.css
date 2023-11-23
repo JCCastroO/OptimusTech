@@ -1,0 +1,143 @@
+.principal {
+    margin: 0 5em;
+}
+
+
+/* metricas */
+.container__metricas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 6em;
+}
+
+.metrica {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    justify-content: flex-start;
+}
+
+.metrica h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--bordo);
+}
+
+.metrica h4 {
+    font-size: 18px;
+    color: var(--azul-escuro);
+}
+
+.metrica p {
+    font-weight: 400;
+    color: var(--cinza-claro);
+}
+
+/* talentos */
+.container__talentos {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding-top: 6rem;
+}
+
+.talento-texto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+.talento-texto span {
+    font-size: 14px;
+    color: var(--bordo);
+}
+
+.talento-texto h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--azul-escuro);
+}
+
+.talento-texto p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-claro);
+}
+
+.talento-img {
+    width: 100%;
+    height: auto;
+}
+
+/* Cartões */
+.container__cards{
+    margin-top: 4rem;
+    padding: 0 16rem;
+}
+
+.container__cards h1 {
+    font-size: 20px;
+    color: var(--azul-escuro);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+    margin: 2rem 0 1.5rem 0;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+}
+
+.card h2 {
+    font-size: 18px;
+    color: var(--azul-escuro);
+}
+
+.card div {
+    display: flex;
+    gap: 1.5rem;
+    color: var(--cinza-claro);
+}
+
+/* Depoimentos */
+.container__depoimentos{
+    padding: 6rem 7rem;
+}
+
+.depoimento {
+    background-color: rgb(195, 25, 25, 3%);
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.depoimento span {
+    color: var(--bordo);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.depoimento h1 {
+    color: var(--azul-escuro);
+    font-size: 36px;
+    margin-top: 1rem;
+}
+
+.depoimento h3 {
+    color: var(--azul-escuro);
+    margin-top: 1rem;
+}
+
+.depoimento p {
+    color: var(--cinza-claro);
+    font-size: 14px;
+    font-weight: 400;
+}

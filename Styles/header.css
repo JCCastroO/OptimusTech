@@ -1,0 +1,86 @@
+.cabecalho {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Navegação */
+.container__navegacao {
+    margin: 18px 80px;
+    display: flex;
+    padding: 0 2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container__navegacao-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-titulo{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container__navegacao-navbar {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.cabecalho__navegacao-link {
+    text-decoration: none;
+    color: var(--cinza-claro);
+}
+
+.container__cabecalho-login {
+    display: flex;
+    gap: 12px;
+}
+
+.botao__entrar {
+    background-color: var(--branco);
+    border: none;
+    padding: 0.6em 1.2em;
+    color: var(--cinza-claro);
+}
+
+.botao__cadastrar {
+    border-radius: 0.5em;
+    padding: 0.6em 1.2em;
+    border: 1px solid var(--bordo);
+    background: var(--bordo);
+    color: var(--branco);
+}
+
+/* Cabeçalho */
+.container__cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    padding: 6em 20em;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+.container__cabecalho span {
+    font-weight: 600;
+    color: var(--bordo);
+}
+
+.container__cabecalho h1 {
+    font-size: 48px;
+    color: var(--azul-escuro);
+}
+
+.container__cabecalho p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-claro);
+}
